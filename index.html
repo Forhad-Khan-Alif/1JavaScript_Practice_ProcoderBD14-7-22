@@ -10,14 +10,19 @@
 
 <body>
     <h1>JavaScript Essential Traning. Playlist Start: 14-7-22</h1>
-    <h2 id="html">Ai h2 tager text change hoye jabe. welcome button e click korlei.</h2>
+    <p id="html">Ai h2 tager text change hoye jabe. welcome button e click korlei.<br><br>HTML Tag Change:
+        onclick="document.getElementById(id_name).innerHTML='Hello, Lorem ipsum dolor sit..'"<br><br>
+        CSS Change: onclick="document.getElementById(id_name).style.color='green'"</p>
     <button
-        onclick="document.getElementById('html').innerHTML='Welcome, This is javascript onclick function'">
-        Welcome
+        onclick="document.getElementById('html').innerHTML='Welcome, This is javascript onclick function. JavaScript Can Change HTML, CSS.'">
+        Welcome, HTML
+    </button>
+    <button onclick="document.getElementById('html').style.color='blue'">
+        Color, CSS
     </button>
 
     <script>
-        alert('Hi, You Can See JavaScript Practice Code');
+        // alert('Hi, You Can See JavaScript Practice Code');
         console.log('Hello Js');
     </script>
 </body>
