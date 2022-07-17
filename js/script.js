@@ -1,6 +1,8 @@
-var x = 10;
+/*var x = 10;
 var y = 5;
+z = x+y;*/
 
-z = x+y;
-
-document.getElementById('js_syntax').innerHTML= z;
+// console.log(z); 
+// document.getElementById('js_syntax').innerHTML= z;
+// Single Line Comment
+/* Multiple Line Comment*/
