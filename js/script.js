@@ -121,8 +121,32 @@ document.getElementById('variable_VAR_LET_CONST_ES6').innerHTML= z ;*/
 // document.getElementById('Js_Data_types').innerHTML= null == undefined;
 // console.log(phone);
 
-let phone = null;
-document.getElementById('Js_Data_types').innerHTML= null === undefined;
-console.log(phone);
+// let phone = null;
+// document.getElementById('Js_Data_types').innerHTML= null === undefined;
+// console.log(phone);
 
 
+// Js Operator precedence......................................................
+// Bracket Precedency: (First) {second} [third]
+// Ongker Chinho Precedency: / * - + = 
+
+// let nowYear = 2022;
+// let forhadBirth = 2002;
+// let bdAdultAge = 21;
+
+// let isAdultAge = nowYear - forhadBirth >= bdAdultAge;
+// document.getElementById('Js_Operator_precedence').innerHTML= isAdultAge;
+
+
+// let nowYear = 2022;
+// let forhadAge = 21;
+// let bdAdultAge = 21;
+// let alifAge = 35
+
+// let average = (forhadAge + alifAge) / 2;
+// document.getElementById('Js_Operator_precedence').innerHTML= average;
+
+
+// Js Function.......................................................................
+
+// document.getElementById('Js_Function').innerHTML= ;
