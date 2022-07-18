@@ -219,5 +219,128 @@ function jsEvents_keypress_onlyUseBodyFormTag(){
 // onload, onresize, scrool: ai Events gulo shudhu body tage kaj korbe.
 
 // Js Math..............................................................................
+// console.log(Math.PI);
+
+// console.log(Math.round(3.49));
+// console.log(Math.round(3.50));
+// console.log(Math.pow(3,2));
+// console.log(Math.pow(8,2));
+
+// console.log(Math.sqrt(144));
+// console.log(Math.sqrt(64));
+
+// console.log(Math.abs(-6));
+
+// console.log(Math.ceil(9.5));
+// console.log(Math.ceil(9.000000001));
+
+// console.log(Math.floor(10.99));
+// console.log(Math.floor(9.000000001));
+
+// console.log(Math.sin(90 * Math.PI/180));
+// console.log(Math.sin(0 * Math.PI/180));
+
+// console.log(Math.cos(0 * Math.PI/180));
+
+// console.log(Math.min(1, 9, 10, 59, 99, 100));
+
+// console.log(Math.random());
+
+// Js Math (random)......................................................................
+// console.log(Math.random());
+
+// console.log(Math.ceil(Math.random()));
+
+// console.log(Math.random().toFixed(2));
+
+// console.log(Math.random().toFixed(2) * 10);
+// console.log(Math.random().toFixed(2) * 10+1);
+
+// Js Math (random) diye app....................
+// let upperValue = 6;
+// let lowerValue = 1;
+
+// let resultValue = Math.random() * (upperValue - lowerValue);
+// console.log(resultValue);
+
+// let upperValue = 6;
+// let lowerValue = 1;
+
+// let resultValue = Math.ceil(Math.random() * (upperValue - lowerValue)+1);
+// console.log(resultValue);
+
+// let upperValue = 6;
+// let lowerValue = 0;
+
+// let resultValue = Math.floor(Math.random() * (upperValue - lowerValue)+1);
+// console.log(resultValue);
+
+// Js Boolean........................................................................
+// let numOne;
+// console.log(Boolean(numOne));
+
+// let numOne = 0;
+// console.log(Boolean(numOne));
+
+// let numOne = 9;
+// console.log(Boolean(numOne));
+
+// let numOne = 5>9;
+// console.log(Boolean(numOne));
+
+// let numOne = 'Forhad';
+// console.log(Boolean(numOne));
+
+// let numOne = '';
+// console.log(Boolean(numOne));
+
+// Js Conditional statements........................................................
+
+// 6am to 12am "Good Morning" Message
+// 12am to 6pm "Good Afternoon" Message
+// Otherwise "Good Evening" Message
+
+// let userTime = new Date().getHours();;
+
+// if(userTime >= 6 && userTime < 12){
+//     console.log('Good Morning');
+// }
+
+// else if (userTime >= 12 && userTime < 18){
+//     console.log('Good Afternoon');
+// }
+
+// else {
+//     console.log('Good Evening');
+// }
+
+// ..............................
+// let userTime = 17;
+
+// if(userTime >= 6 && userTime < 12){
+//     console.log('Good Morning');
+// }
+
+// else if (userTime >= 12 && userTime < 18){
+//     console.log('Good Afternoon');
+// }
+
+// else {
+//     console.log('Good Evening');
+// }
+
+// Js switch................................................................................
+
+
+
+
+
+
+
+
+
+
+
+
 
 
