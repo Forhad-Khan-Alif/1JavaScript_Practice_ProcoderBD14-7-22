@@ -330,17 +330,215 @@ function jsEvents_keypress_onlyUseBodyFormTag(){
 // }
 
 // Js switch................................................................................
+// let x = 1;
+
+// switch(x){
+//     case 0:
+//         x= "Off";
+//     break;
+//     case 1:
+//         x= "On";
+// }
+// console.log(x);
+
+// ...........................................
+// let dayShow = 1;
+
+// switch(dayShow){
+//     case 0:
+//         dayShow= "Sunday";
+//     break;
+//     case 1:
+//         dayShow= "Monday";
+//     break;
+//     case 2:
+//         dayShow= "Tuesday";
+//     break;        
+//     case 3:
+//         dayShow= "Wednesday";
+//     break;
+//     case 4:
+//         dayShow= "Thursday";
+//     break;
+//     case 5:
+//     dayShow= "Friday";
+//     break;
+//     case 6:
+//     dayShow= "Saturday";
+//     break;
+//     default:
+//         dayShow = "Not Found"; 
+// }
+
+// console.log(dayShow);
+
+// ...............................
+
+// let dayShow = 1;
+
+// switch(dayShow){
+//     case 0:
+//         dayShow= "Sunday, Its weekend";
+//     break;
+//     case 1:
+//     case 2:     
+//     case 3:
+//     case 4:
+//     case 5:
+//     case 6:
+//         dayShow = "Its office day";
+//         break;
+//     default:
+//         dayShow = "Not Found"; 
+// }
+
+// console.log(dayShow);
+
+// .........................................
+// let dayShow;
+
+// switch(new Date().getDay()){
+//     case 0:
+//         dayShow= "Sunday, Its weekend";
+//     break;
+//     case 1:
+//     case 2:     
+//     case 3:
+//     case 4:
+//     case 5:
+//     case 6:
+//         dayShow = "Its office day";
+//         break;
+//     default:
+//         dayShow = "Not Found"; 
+// }
+
+// console.log(dayShow);
+
+// .................................
+// let dayShow;
+
+// switch(new Date().getDay()){
+//     case 0:
+//         dayShow= "Sunday, Its weekend";
+//     break;
+//     case 1:
+//     case 2:
+//         dayShow = "This is Tuesday";
+//         break;
+//     case 3:
+//     case 4:
+//     case 5:
+//     case 6:
+//         dayShow = "Its office day";
+//         break;
+//     default:
+//         dayShow = "Not Found"; 
+// }
+
+// console.log(dayShow);
+
+
+// Js Loops................................................................
+
+// Js For Loop......................
+// Increment.......
+// for (let i=0; i<6; i++)
+//     console.log('Hello Forhad'+i);
+
+// for (let i=0; i<=6; i++)
+//     console.log('Hello Forhad',i);
+
+// Decrement.......
+// for (let i=6; i>0; i--){
+//     console.log('Hello Forhad', i);
+//     if (i===4) break;
+// }
+
+
+// const vehicles = ['Bus', 'car', 'Cycle', 'Chopper'];
+
+// for (let i=0; i<vehicles.length; i++){
+//     console.log(vehicles[i]);
+// }
+
+// Js While Loop.............................................................
+// let numVariable = 1;
+
+// while (numVariable <=10){
+//     console.log('This is while loop', numVariable);
+//     numVariable ++;
+// }
 
 
 
+// let numVariable = 1;
+
+// while (numVariable <10){
+//     console.log('This is while loop', numVariable);
+//     numVariable ++;
+// }
+// document.write("Your loop work fine");
 
 
+// Js Mistake You Should Avoid............................................
 
 
+// Js Why You Should Avoid var.................................
+// var = function-scoped
+// let, const = block-scoped
+
+// var name = 'Forhad Khan';
+// let country = 'Bangladesh';
+
+// function newMessage(){
+//     console.log('Hello Bangladesh');
+// }
+// newMessage();
+
+// ...........................
+
+// var name = 'Forhad Khan';
+// let country = 'Bangladesh';
+
+// function newMessage(){
+//     for(let i=0; i<5; i++){
+//         console.log(i);
+//     }
+//     console.log(i);
+// }
+// newMessage();
+
+// ..........................
+
+// var name = 'Forhad Khan';
+// let country = 'Bangladesh';
+
+// function newMessage(){
+//     for(var i=0; i<5; i++){
+//         console.log(i);
+//     }
+//     console.log(i);
+// }
+// newMessage();
 
 
+// var name = 'Alif Babu';
+// console.log(name);
+
+// ......................
+
+// var name = 'Forhad Khan';
+// let country = 'Bangladesh';
+
+// function newMessage(){
+//     for(var i=0; i<5; i++){
+//         console.log(i);
+//     }
+//     console.log(i);
+// }
+// newMessage();
 
 
-
-
-
+// let country = 'BD';
+// console.log(country);
