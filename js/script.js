@@ -149,4 +149,75 @@ document.getElementById('variable_VAR_LET_CONST_ES6').innerHTML= z ;*/
 
 // Js Function.......................................................................
 
-// document.getElementById('Js_Function').innerHTML= ;
+// function name(){
+//     console.log('Hello Forhad');
+// }
+// name();
+
+
+// function name(firstName, lastName){
+//     console.log('Hello ' + firstName + ' ' + lastName);
+// }
+// name('Forhad', 'Khan');
+
+// function mathFunctionName(number){
+//     number + number;
+// }
+// console.log(mathFunctionName(8));
+
+// function mathFunctionName(number){
+//    return number + number;
+// }
+// console.log(mathFunctionName(8));
+
+// function mathFunctionName(number){
+//     return number * number;
+//  }
+//  console.log(mathFunctionName(8));
+
+// function mathFunctionName(number, number2){
+//     return number + number2;
+//  }
+//  console.log(mathFunctionName(8, 10));
+
+
+//  let bivinnoStyleFunctionNeyar = function nameOfFunction(){
+
+//  }
+
+
+// Js Events........................................................................
+// function jsEvents(){
+//     document.write('Hello Forhad Khan. Js Events');
+// }
+// jsEvents();
+
+function jsEvents(){
+    document.write('Hello Forhad Khan. (onclick) Js Events');
+}
+
+function jsEvents_dblclick(){
+    document.write('Hello Forhad Khan. (ondblclick) Js Events');
+}
+
+function jsEvents_rightclick(){
+    document.write('Hello Forhad Khan. (right click, oncontextmenu) Js Events');
+}
+
+function jsEvents_mouseHoverEnter(){
+    document.write('Hello Forhad Khan. (onmouseenter) Js Events');
+}
+
+function jsEvents_mouseHoverOut(){
+    document.write('Hello Forhad Khan. (onmouseout) Js Events');
+}
+
+function jsEvents_keypress_onlyUseBodyFormTag(){
+    document.write('Hello Forhad Khan. (onkeypress) Js Events. Ati Shudhu body, form tag e use hoy.');
+}
+
+// onload, onresize, scrool: ai Events gulo shudhu body tage kaj korbe.
+
+// Js Math..............................................................................
+
+
